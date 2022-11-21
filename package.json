@@ -1,5 +1,5 @@
 {
-  "name": "@JadeDuo/lotide",
+  "name": "@jadeduo/lotide",
   "version": "1.0.0",
   "description": "a lodash inspired library",
   "main": "index.js",
