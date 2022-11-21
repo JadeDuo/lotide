@@ -5,3 +5,4 @@ const countLetters = function(str) {
   }
   return results;
 };
+module.exports = countLetters;

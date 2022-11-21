@@ -1,15 +1,4 @@
-const eqArrays = function(arr1, arr2) {
-  if (arr1.length !== arr2.length){
-    return false;
-  }
-  for (let i = 0; i < arr1.length; i++) {
-    if (arr1[i] !== arr2[i]) {
-      return false;
-    } 
-  }
-  return true;
-};
-/////////
+const eqArrays = require("./eqArrays");
 
 const eqObjects = function(obj1, obj2) {
   ///if length isn't the same, return false
@@ -30,3 +19,5 @@ const eqObjects = function(obj1, obj2) {
   }
   return true;
 };
+
+module.exports = eqObjects;
