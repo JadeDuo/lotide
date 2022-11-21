@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@JadeDuo/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "a lodash inspired library",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/JadeDuo/lotide.git"
   },
-  "author": "",
+  "author": "Jade Duong <jade.duong@telus.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JadeDuo/lotide/issues"
