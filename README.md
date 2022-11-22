@@ -37,7 +37,7 @@ The following functions are currently implemented:
 * `findKey(obj, callback)`: returns the first key of the source object that matches the value when the callback function is true.
 * `eqObjects(obj1, obj2)`: returns true if two objects are indentical.
 * `eqArrays(arr1, arr2)`: returns true if two arrays are indentical.
-* `countOnly(allItems, itemsToCount)`: returns an object where the keys are the elements in the array, and their values are the number of times that element occurs in the source array. This object only contains the keys specified by elements in itemsToCount.
+* `countOnly(allItems, itemsToCount)`: returns an object where the keys are the elements in the array, and their values are the number of times that element occurs in the source array. This object only contains the keys valued true in itemsToCount.
 * `countLetters(str)`: returns an object where the keys are the characters in the string and their values are the number of times that character occurs in the source string. this method removes all whitespace characters prior to executing. 
 * `assertObjectsEqual(obj1, obj2)`: prints a message to the terminal of if argument objects are identical or not. 
 * `assertArraysEqual(arr1, arr2)`: prints a message to the terminal of if the argument arrays are identical or not. only to be used for arrays.
